@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.img {
+    display: flex;
+    align-items: center;
+}
+
+.img img {
+    width: 120px;
+    height: 120px;
+    margin-right: 200px;
+    margin-left: 30px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+h1 {
+    margin-left: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.menu li a:hover {
+    color: #ff0000;
+}
+
+.cl {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cl h1 {
+    margin-left: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.cl h2 {
+    margin-left: 0;
+    color: #333;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.cart-item .product-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.cart-item h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.cart-item .remove-item {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.cart-item .remove-item:hover {
+    background-color: #cc0000;
+}
+
+.footer {
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.instabot h5 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.instabot p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.end h4 {
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+}
+
+.end h4:hover {
+    text-decoration: underline;
+}
